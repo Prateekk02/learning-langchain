@@ -58,6 +58,6 @@ Low-level features learned for task A should be beneficial for learning of model
 
 result = chain.invoke({'text': text})
 
-# print(result)
+print(result)
 
-chain.get_graph().print_ascii()
+chain.get_graph().print_ascii() 
